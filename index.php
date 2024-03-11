@@ -59,6 +59,12 @@ font-display: swap;
 })(window, document, 'script', 'cloud.roistat.com', 'fabf549531da71eec07894494c759c3b');
 </script>
 
+<?php
+echo "Привет, мир!";
+print($_POST);
+print_r($_REQUEST)
+?>
+
 <a href="https://wa.me/375298943845">Напишите нам в WhatsApp</a>
 <script id="crm-wa-button-script" src="https://app.i2crm.ru/api_v1/js/crm_wa_button_v1.js" data-source="ym" data-text="Заявка {u_code}"></script>
 
