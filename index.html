@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+<!-- Roistat Counter Start -->
+<script>
+(function(w, d, s, h, id) {
+    w.roistatProjectId = id; w.roistatHost = h;
+    var p = d.location.protocol == "https:" ? "https://" : "http://";
+    var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init?referrer="+encodeURIComponent(d.location.href);
+    var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+})(window, document, 'script', 'cloud.roistat.com', '1e2d3be59da4f13e5b5eb2c18d1cdb21');
+</script>
+<!-- Roistat Counter End -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -18,7 +28,7 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/97011326" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-<script id="crm-wa-button-script" src="https://app.i2crm.ru/api_v1/js/crm_wa_button_v1.js" data-source="ym" data-text="Мой номер заявки {u_code}"></script>
+<script id="crm-wa-button-script" src="https://app.i2crm.ru/api_v1/js/crm_wa_button_v1.js" data-source="rs" data-text="Мой номер заявки {u_code}"></script>
   </head>
   <body>
 <a href="https://wa.me/79965640286">Напишите нам в WhatsApp</a>
